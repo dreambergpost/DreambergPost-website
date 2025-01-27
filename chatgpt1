@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dreamberg - Post-Production Consulting. Less stress, more storytelling. Expert guidance for filmmakers, editors, and producers.">
+    <title>Dreamberg - Post-Production Consulting</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1em;
+        }
+
+        nav a:hover {
+            background: #555;
+        }
+
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 5em 1em;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+        }
+
+        .cta {
+            background: #ff8800;
+            padding: 1em;
+            color: white;
+            text-align: center;
+        }
+
+        .cta a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 2em 1em;
+            text-align: center;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        .services ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .services li {
+            margin: 1em 0;
+        }
+
+        .contact-form input, .contact-form textarea {
+            display: block;
+            width: 80%;
+            margin: 0.5em auto;
+            padding: 0.5em;
+        }
+
+        .contact-form button {
+            padding: 0.5em 1em;
+            background: #444;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dreamberg</h1>
+        <p>Less stress, more storytelling.</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#resources">Free Resources</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        <h1>Welcome to Dreamberg</h1>
+        <p>Your guide to mastering post-production workflows</p>
+        <a href="#resources" class="cta">Start Your Post-Production Journey</a>
+    </div>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>My name is Aaron Greenberg. I have over 20+ years of experience producing everything from huge streaming and broadcast TV shows such as Goliath, Calls, and My Name Is Earl, as well as being a member of web-content pioneers Handsome Donkey. I am here to let you benefit from my wisdom and help you avoid many painful lessons that I already learned the hard way.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services: Your Post-Production Guide</h2>
+        <ul>
+            <li><strong>Free Post-Production Resource Hub:</strong> Get started with our free eBooks, guides, and templates to better understand post-production workflows and best practices. <a href="#resources">Access Free Resources</a></li>
+            <li><strong>Customized Workflow Design:</strong> We’ll create a tailored workflow for your project, ensuring smooth communication between teams and avoiding costly mistakes. <a href="#contact">Request a Workflow Audit</a></li>
+            <li><strong>Post-Production Consulting for TV & Film:</strong> Expert guidance through every stage of post-production, from dailies to final delivery. <a href="#contact">Book a Free Consultation</a></li>
+            <li><strong>Strategic Notes & Feedback:</strong> Receive actionable feedback on cuts to elevate storytelling, pacing, and polish. <a href="#contact">Get Expert Feedback</a></li>
+            <li><strong>One-on-One Coaching:</strong> Personalized coaching sessions to empower you with post-production knowledge and confidence. <a href="#contact">Schedule Coaching</a></li>
+        </ul>
+    </section>
+    <section id="resources">
+        <h2>Free Post-Production Resource Hub</h2>
+        <p>Explore a collection of free tools, templates, and guides designed to help you navigate the world of post-production with confidence.</p>
+        <a href="#" class="cta">Download Now</a>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to discuss your project? Let’s connect!</p>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p>We’ll get back to you within 48 hours.</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Dreamberg. All rights reserved.</p>
+        <p>Follow us on <a href="#">Instagram</a>, <a href="#">LinkedIn</a>, and <a href="#">YouTube</a>.</p>
+    </footer>
+</body>
+</html>
